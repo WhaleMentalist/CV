@@ -1,68 +1,96 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Spencer's Personal Website</title>
-</head>
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="./images/profile-image.png" alt="Spencer Profile Image"></td>
-      <td><h1>Spencer Daniel</h1>
-      <p>I am a graduate of the <em><a href="https://www.ou.edu/">University of Oklahoma</a></em>
-        and currently working at <em><a href="https://www.tinker.af.mil/">Tinker AFB</a></em>
-        as a software developer.</p>
-      <p>I am interested in aquiring a <em>Full Stack Web Developer</em>
-        position in Japan. By immersing myself in a culture that
-        contrasts with Western culture, I believe the experience will increase
-        my confidence and broaden my own views on the world. Currently, I feel
-        that a plunge into the web development domain will grow my career.</p>
-      <p>My current plan is to complete a web development bootcamp to
-        reinvigorate my career and to prepare myself for a web developer
-        position. The bootcamp will expand my code portfolio and increase my
-        confidence for technical interviews.</p></td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>
-      <p><strong>B.S. in Computer Science with Distinction, 2017</strong></p>
-      <p><em>University of Oklahoma, Norman, Oklahoma</em></p>
-    </li>
-    <li>
-      <p><strong>A.S. in Mathematics, 2015</strong></p>
-      <p><em>Rose State College, Midwest City, Oklahoma</em></p>
-    </li>
-  </ul>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10px">
-    <tr>
-      <td>Java</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Unit Testing</td>
-      <td>⭐⭐⭐⭐☆</td>
-    </tr>
-    <tr>
-      <td>C++</td>
-      <td>⭐⭐☆☆☆</td>
-      <td>MVC</td>
-      <td>⭐⭐⭐☆☆</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>⭐☆☆☆☆</td>
-      <td>Agile</td>
-      <td>⭐⭐⭐☆☆</td>
-    </tr>
-    <tr>
-      <td>Data Structures</td>
-      <td>⭐⭐⭐☆☆</td>
-    </tr>
-  </table>
-  <hr>
-  <h3><a href="./hobbies.html">My Hobbies</a></h3>
-  <h3><a href="./contact-me.html">Contact Me</a></h3>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Spencer's Website</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico">
+  </head>
+  <body>
+    <div class="menu-bar-container">
+      <ul class="menu-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="">Notes</a></li>
+      </ul>
+    </div>
+    <div class="top-container">
+      <img class="comb-bee-top-right" src="./images/comb-bee.png" alt="comb-bee-img">
+      <img class="comb-bee-bottom-left" src="./images/comb-bee.png" alt="comb-img">
+      <h1>I'm Spencer.</h1>
+      <h2>a Computer Scientist</h2>
+      <img src="./images/honey.png" alt="honey-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <h2>Bio</h2>
+        <p>I am a graduate of the <em><a href="https://www.ou.edu/">University of Oklahoma</a></em>
+          and currently working at <em><a href="https://www.tinker.af.mil/">Tinker AFB</a></em>
+          as a software developer. I have been working at Tinker for over
+          5 years and been a part of a multitude of different teams giving a
+          diverse set of skills and interpersonal skills.</p>
+        <p>I am interested in aquiring a <em>Full Stack Web Developer</em>
+          position in Japan. By immersing myself in a culture that
+          contrasts with Western culture, I believe the experience will increase
+          my confidence and broaden my own views on the world. Currently, I feel
+          that a plunge into the web development domain will grow my career.</p>
+        <p>My current plan is to complete a web development bootcamp to
+          reinvigorate my career and to prepare myself for a web developer
+          position. The bootcamp will expand my code portfolio and increase my
+          confidence for technical interviews.</p></td>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="skill-row">
+          <table class="center">
+            <tr>
+              <td><img src="./images/java.png" alt="java-img"></td>
+              <td><img src="./images/c++.png" alt="c++-img"></td>
+              <td><img src="./images/python.png" alt="python-img"></td>
+            </tr>
+          </table>
+          <h3>Software Development</h3>
+          <p>While working for Tinker Air Force Base I have gained
+              experience in JAVA, C++, and Python. Projects include
+              simulation software, debugging tools, and scripts to
+              automate tasks. The projects required the use of
+              design patterns and MVC architecture.</p>
+          <p>Other tasks included writing unit tests using a variety of
+              frameworks such as Catch and JUnit. The unit tests utilized
+              mocking frameworks to inject dependencies within the code.</p>
+        </div>
+        <div class="skill-row">
+          <table class="center">
+            <tr>
+              <td><img src="./images/html.png" alt="html-img"></td>
+              <td><img src="./images/css.png" alt="css-img"></td>
+            </tr>
+          </table>
+          <h3>Front End Development</h3>
+          <p>Currently, I am attending a boot camp learning <em>Full Stack
+              Web Development</em>. The course divides between the
+              <em>Front-end</em> and <em>Back-end</em> development.
+              I am in the middle of the <em>Front-end</em> section and
+              looking forward to establishing a foundation.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>I hope you too have a fondness for honey bees like I do.</h3>
+        <p>I have provided a contact link below if you wish to get in touch. I
+           am always welcome to advice and critque.</p>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <a class="btn" href="mailto:spencerdaniel93@gmail.com">Contact Me</a>
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <p class=copy-right>© 2022 Spencer Daniel. All rights reserved.</p>
+    </div>
+  </body>
 </html>
